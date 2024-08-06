@@ -4,10 +4,10 @@
     "slug": "minerdApp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/educacion_icono.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/educacion_icono.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -16,12 +16,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/educacion_icono.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.byjelias.minerdApp"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/educacion_icono.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1612f892-8afd-4769-a095-5940637cf8d7"
+      }
     }
   }
 }
